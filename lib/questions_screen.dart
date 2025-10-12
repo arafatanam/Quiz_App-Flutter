@@ -25,7 +25,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
             currentQuestion.text,
             style: const TextStyle(color: Colors.white),
           ),
-          const SizedBox(height: 30),
+          const SizedBox(height: 20),
           ...currentQuestion.answers.map((answer) {
             return AnswerButton(answerText: answer, onTap: () {});
           }),
