@@ -26,7 +26,6 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
 
     return SizedBox(
       width: double.infinity,
-<<<<<<< HEAD
       child: Container(
         margin: const EdgeInsets.all(40),
         child: Column(
@@ -44,20 +43,6 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
             }),
           ],
         ),
-=======
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text(
-            currentQuestion.text,
-            style: const TextStyle(color: Colors.white),
-          ),
-          const SizedBox(height: 20),
-          ...currentQuestion.answers.map((answer) {
-            return AnswerButton(answerText: answer, onTap: () {});
-          }),
-        ],
->>>>>>> 5534bb3f52c0a5ea5ef62bae991c3af4438d5155
       ),
     );
   }
