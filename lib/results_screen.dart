@@ -17,7 +17,6 @@ class ResultsScreen extends StatelessWidget {
         'user_answer': chosenAnswers[i],
       });
     }
-
     return summary;
   }
 
