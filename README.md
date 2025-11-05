@@ -53,19 +53,20 @@ The course provides comprehensive training in Flutter and Dart for cross-platfor
 
 ```
 lib/
-├── main.dart                    # Application entry point
-├── quiz.dart                    # Main quiz widget and state management
-├── start_screen.dart           # Initial welcome screen
-├── questions_screen.dart       # Quiz questions interface
-├── results_screen.dart         # Quiz results and summary
-├── answer_button.dart          # Custom answer button widget
-├── questions_summary.dart      # Quiz summary components
-├── summary_item.dart           # Individual summary item widget
-├── question_identifier.dart    # Question number indicator
+├── main.dart                      # Application entry point
+├── quiz.dart                      # Main quiz widget and state management
+├── start_screen.dart             # Initial welcome screen
+├── questions_screen.dart         # Quiz questions interface
+├── results_screen.dart           # Quiz results and summary
+├── answer_button.dart            # Custom answer button widget
 ├── data/
-│   └── questions.dart          # Quiz questions data
-└── models/
-    └── quiz_question.dart      # Question model class
+│   └── questions.dart            # Quiz questions data
+├── models/
+│   └── quiz_question.dart        # Question model class
+└── questions_summary/
+    ├── question_identifier.dart  # Question number indicator
+    ├── questions_summary.dart    # Quiz summary components
+    └── summary_item.dart         # Individual summary item widget
 ```
 
 ## Key Files
